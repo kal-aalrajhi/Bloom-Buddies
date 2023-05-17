@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B281AFC2A0E741500430A34 /* SearchEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B281AFB2A0E741500430A34 /* SearchEvents.swift */; };
+		9B281AFE2A0E741E00430A34 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B281AFD2A0E741E00430A34 /* LoginScreen.swift */; };
+		9B281B002A0E742600430A34 /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B281AFF2A0E742600430A34 /* EventDetails.swift */; };
+		9B281B042A0E7A0600430A34 /* CreateEventCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B281B032A0E7A0600430A34 /* CreateEventCategories.swift */; };
+		9B7294BB2A09D5B000DB1616 /* Bloom_BuddiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7294BA2A09D5B000DB1616 /* Bloom_BuddiesApp.swift */; };
+		9B7294BD2A09D5B000DB1616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7294BC2A09D5B000DB1616 /* ContentView.swift */; };
+		9B7294BF2A09D5B100DB1616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7294BE2A09D5B100DB1616 /* Assets.xcassets */; };
+		9B7294C22A09D5B100DB1616 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7294C12A09D5B100DB1616 /* Preview Assets.xcassets */; };
+		9B7294E52A0C56CD00DB1616 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7294E42A0C56CD00DB1616 /* Dashboard.swift */; };
+		9B7294E72A0C61CF00DB1616 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7294E62A0C61CF00DB1616 /* Login.swift */; };
+		9B74B7452A0EF079007E2D9F /* EventPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B74B7442A0EF079007E2D9F /* EventPage.swift */; };
+		9B88FAF92A1449DC0005F354 /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FAF82A1449DC0005F354 /* CreateProfile.swift */; };
+		9B88FAFB2A1449F70005F354 /* Gardening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FAFA2A1449F70005F354 /* Gardening.swift */; };
+		9B88FAFD2A1450E80005F354 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88FAFC2A1450E80005F354 /* Photos.swift */; };
+		9B9A30FD2A0F0472003F481D /* PinnedEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A30FC2A0F0472003F481D /* PinnedEvents.swift */; };
+		9BA84A422A0E9F3700734D78 /* ReviewDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA84A412A0E9F3700734D78 /* ReviewDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B7294C82A09D5B100DB1616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7294AF2A09D5B000DB1616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B7294B62A09D5B000DB1616;
+			remoteInfo = "Bloom Buddies";
+		};
+		9B7294D22A09D5B100DB1616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B7294AF2A09D5B000DB1616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B7294B62A09D5B000DB1616;
+			remoteInfo = "Bloom Buddies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B281AFB2A0E741500430A34 /* SearchEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEvents.swift; sourceTree = "<group>"; };
+		9B281AFD2A0E741E00430A34 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		9B281AFF2A0E742600430A34 /* EventDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
+		9B281B032A0E7A0600430A34 /* CreateEventCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventCategories.swift; sourceTree = "<group>"; };
+		9B7294B72A09D5B000DB1616 /* Bloom Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bloom Buddies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7294BA2A09D5B000DB1616 /* Bloom_BuddiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bloom_BuddiesApp.swift; sourceTree = "<group>"; };
+		9B7294BC2A09D5B000DB1616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B7294BE2A09D5B100DB1616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B7294C12A09D5B100DB1616 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B7294C72A09D5B100DB1616 /* Bloom BuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bloom BuddiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7294D12A09D5B100DB1616 /* Bloom BuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bloom BuddiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7294E42A0C56CD00DB1616 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		9B7294E62A0C61CF00DB1616 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9B74B7442A0EF079007E2D9F /* EventPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPage.swift; sourceTree = "<group>"; };
+		9B88FAF82A1449DC0005F354 /* CreateProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateProfile.swift; path = ../../../../Downloads/CreateProfile.swift; sourceTree = "<group>"; };
+		9B88FAFA2A1449F70005F354 /* Gardening.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gardening.swift; path = ../../../../Downloads/Gardening.swift; sourceTree = "<group>"; };
+		9B88FAFC2A1450E80005F354 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		9B9A30FC2A0F0472003F481D /* PinnedEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinnedEvents.swift; path = ../../../../Downloads/PinnedEvents.swift; sourceTree = "<group>"; };
+		9BA84A412A0E9F3700734D78 /* ReviewDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B7294B42A09D5B000DB1616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7294C42A09D5B100DB1616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7294CE2A09D5B100DB1616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B7294AE2A09D5B000DB1616 = {
+			isa = PBXGroup;
+			children = (
+				9B7294B92A09D5B000DB1616 /* Bloom Buddies */,
+				9B7294B82A09D5B000DB1616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B7294B82A09D5B000DB1616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B7294B72A09D5B000DB1616 /* Bloom Buddies.app */,
+				9B7294C72A09D5B100DB1616 /* Bloom BuddiesTests.xctest */,
+				9B7294D12A09D5B100DB1616 /* Bloom BuddiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B7294B92A09D5B000DB1616 /* Bloom Buddies */ = {
+			isa = PBXGroup;
+			children = (
+				9B7294BA2A09D5B000DB1616 /* Bloom_BuddiesApp.swift */,
+				9B7294BC2A09D5B000DB1616 /* ContentView.swift */,
+				9B7294E42A0C56CD00DB1616 /* Dashboard.swift */,
+				9B7294E62A0C61CF00DB1616 /* Login.swift */,
+				9B281AFB2A0E741500430A34 /* SearchEvents.swift */,
+				9B281AFD2A0E741E00430A34 /* LoginScreen.swift */,
+				9B74B7442A0EF079007E2D9F /* EventPage.swift */,
+				9B9A30FC2A0F0472003F481D /* PinnedEvents.swift */,
+				9B281AFF2A0E742600430A34 /* EventDetails.swift */,
+				9B281B032A0E7A0600430A34 /* CreateEventCategories.swift */,
+				9BA84A412A0E9F3700734D78 /* ReviewDetails.swift */,
+				9B88FAF82A1449DC0005F354 /* CreateProfile.swift */,
+				9B88FAFA2A1449F70005F354 /* Gardening.swift */,
+				9B88FAFC2A1450E80005F354 /* Photos.swift */,
+				9B7294BE2A09D5B100DB1616 /* Assets.xcassets */,
+				9B7294C02A09D5B100DB1616 /* Preview Content */,
+			);
+			path = "Bloom Buddies";
+			sourceTree = "<group>";
+		};
+		9B7294C02A09D5B100DB1616 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B7294C12A09D5B100DB1616 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B7294B62A09D5B000DB1616 /* Bloom Buddies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7294DB2A09D5B100DB1616 /* Build configuration list for PBXNativeTarget "Bloom Buddies" */;
+			buildPhases = (
+				9B7294B32A09D5B000DB1616 /* Sources */,
+				9B7294B42A09D5B000DB1616 /* Frameworks */,
+				9B7294B52A09D5B000DB1616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bloom Buddies";
+			productName = "Bloom Buddies";
+			productReference = 9B7294B72A09D5B000DB1616 /* Bloom Buddies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B7294C62A09D5B100DB1616 /* Bloom BuddiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7294DE2A09D5B100DB1616 /* Build configuration list for PBXNativeTarget "Bloom BuddiesTests" */;
+			buildPhases = (
+				9B7294C32A09D5B100DB1616 /* Sources */,
+				9B7294C42A09D5B100DB1616 /* Frameworks */,
+				9B7294C52A09D5B100DB1616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7294C92A09D5B100DB1616 /* PBXTargetDependency */,
+			);
+			name = "Bloom BuddiesTests";
+			productName = "Bloom BuddiesTests";
+			productReference = 9B7294C72A09D5B100DB1616 /* Bloom BuddiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B7294D02A09D5B100DB1616 /* Bloom BuddiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7294E12A09D5B100DB1616 /* Build configuration list for PBXNativeTarget "Bloom BuddiesUITests" */;
+			buildPhases = (
+				9B7294CD2A09D5B100DB1616 /* Sources */,
+				9B7294CE2A09D5B100DB1616 /* Frameworks */,
+				9B7294CF2A09D5B100DB1616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B7294D32A09D5B100DB1616 /* PBXTargetDependency */,
+			);
+			name = "Bloom BuddiesUITests";
+			productName = "Bloom BuddiesUITests";
+			productReference = 9B7294D12A09D5B100DB1616 /* Bloom BuddiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B7294AF2A09D5B000DB1616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9B7294B62A09D5B000DB1616 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					9B7294C62A09D5B100DB1616 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9B7294B62A09D5B000DB1616;
+					};
+					9B7294D02A09D5B100DB1616 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 9B7294B62A09D5B000DB1616;
+					};
+				};
+			};
+			buildConfigurationList = 9B7294B22A09D5B000DB1616 /* Build configuration list for PBXProject "Bloom Buddies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B7294AE2A09D5B000DB1616;
+			productRefGroup = 9B7294B82A09D5B000DB1616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B7294B62A09D5B000DB1616 /* Bloom Buddies */,
+				9B7294C62A09D5B100DB1616 /* Bloom BuddiesTests */,
+				9B7294D02A09D5B100DB1616 /* Bloom BuddiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B7294B52A09D5B000DB1616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7294C22A09D5B100DB1616 /* Preview Assets.xcassets in Resources */,
+				9B7294BF2A09D5B100DB1616 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7294C52A09D5B100DB1616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7294CF2A09D5B100DB1616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B7294B32A09D5B000DB1616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA84A422A0E9F3700734D78 /* ReviewDetails.swift in Sources */,
+				9B9A30FD2A0F0472003F481D /* PinnedEvents.swift in Sources */,
+				9B7294BD2A09D5B000DB1616 /* ContentView.swift in Sources */,
+				9B7294E52A0C56CD00DB1616 /* Dashboard.swift in Sources */,
+				9B281B042A0E7A0600430A34 /* CreateEventCategories.swift in Sources */,
+				9B7294BB2A09D5B000DB1616 /* Bloom_BuddiesApp.swift in Sources */,
+				9B88FAFD2A1450E80005F354 /* Photos.swift in Sources */,
+				9B7294E72A0C61CF00DB1616 /* Login.swift in Sources */,
+				9B281AFC2A0E741500430A34 /* SearchEvents.swift in Sources */,
+				9B281AFE2A0E741E00430A34 /* LoginScreen.swift in Sources */,
+				9B281B002A0E742600430A34 /* EventDetails.swift in Sources */,
+				9B88FAFB2A1449F70005F354 /* Gardening.swift in Sources */,
+				9B74B7452A0EF079007E2D9F /* EventPage.swift in Sources */,
+				9B88FAF92A1449DC0005F354 /* CreateProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7294C32A09D5B100DB1616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B7294CD2A09D5B100DB1616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B7294C92A09D5B100DB1616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B7294B62A09D5B000DB1616 /* Bloom Buddies */;
+			targetProxy = 9B7294C82A09D5B100DB1616 /* PBXContainerItemProxy */;
+		};
+		9B7294D32A09D5B100DB1616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B7294B62A09D5B000DB1616 /* Bloom Buddies */;
+			targetProxy = 9B7294D22A09D5B100DB1616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B7294D92A09D5B100DB1616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B7294DA2A09D5B100DB1616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B7294DC2A09D5B100DB1616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bloom Buddies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KalTest.Bloom-Buddies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B7294DD2A09D5B100DB1616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bloom Buddies/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KalTest.Bloom-Buddies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B7294DF2A09D5B100DB1616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KalTest.Bloom-BuddiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bloom Buddies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bloom Buddies";
+			};
+			name = Debug;
+		};
+		9B7294E02A09D5B100DB1616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KalTest.Bloom-BuddiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bloom Buddies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bloom Buddies";
+			};
+			name = Release;
+		};
+		9B7294E22A09D5B100DB1616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KalTest.Bloom-BuddiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bloom Buddies";
+			};
+			name = Debug;
+		};
+		9B7294E32A09D5B100DB1616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KalTest.Bloom-BuddiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bloom Buddies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B7294B22A09D5B000DB1616 /* Build configuration list for PBXProject "Bloom Buddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7294D92A09D5B100DB1616 /* Debug */,
+				9B7294DA2A09D5B100DB1616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7294DB2A09D5B100DB1616 /* Build configuration list for PBXNativeTarget "Bloom Buddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7294DC2A09D5B100DB1616 /* Debug */,
+				9B7294DD2A09D5B100DB1616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7294DE2A09D5B100DB1616 /* Build configuration list for PBXNativeTarget "Bloom BuddiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7294DF2A09D5B100DB1616 /* Debug */,
+				9B7294E02A09D5B100DB1616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7294E12A09D5B100DB1616 /* Build configuration list for PBXNativeTarget "Bloom BuddiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7294E22A09D5B100DB1616 /* Debug */,
+				9B7294E32A09D5B100DB1616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B7294AF2A09D5B000DB1616 /* Project object */;
+}
